@@ -14,7 +14,7 @@ TARGET_DIR=/tmp/gh-backup
 rm -rf $TARGET_DIR
 mkdir -p $TARGET_DIR
 
-DEFAULT_BACKUP_ENTITIES="--starred --watched --followers --following --issues --issue-comments --issue-events --labels  --milestones --repositories --wikis --gists --starred-gists --private --releases "
+DEFAULT_BACKUP_ENTITIES="--starred --watched --followers --following --issues --labels  --milestones --repositories --wikis --gists --starred-gists --private --releases "
 
 GH_BACKUP_ENTITIES="${GH_BACKUP_ENTITIES:-$DEFAULT_BACKUP_ENTITIES}"
 
