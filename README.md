@@ -13,7 +13,8 @@ Please set following environment variables:
 **GH_ACCESS_TOKEN** Access Token (Settings -> Developer settings -> Personal Access Token. Should have repo and workflow priveleges)
 
 **DEFAULT_BACKUP_ENTITIES** Optional parameter, which entities should be backed up. See https://github.com/josegonzalez/python-github-backup  
-Default if not set: `--starred --watched --followers --following --issues --issue-comments --issue-events --labels  --milestones --repositories --wikis --gists --starred-gists --private --releases`
+
+Default if not set: `--starred --watched --followers --following --issues --labels  --milestones --repositories --wikis --gists --starred-gists --private --releases`
 
 Backup zip will be stored in `/out`. Should be mapped as volume (e.g. samba/nfs mount)
 
